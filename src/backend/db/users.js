@@ -6,6 +6,42 @@ import { formatDate } from "../utils/authUtils";
 
 export const users = [
   {
+    _id: "79Gks29otl",
+    firstName: "jeryan",
+    lastName: "royate",
+    password: "1234",
+    username: "jeryan",
+    bio: "echozone teamleader!",
+    website: "https://echozoneph.online",
+    profileAvatar:
+      "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331082/socialMedia/Sarah-Wilson_io6cpx.jpg",
+    backgroundImage:
+      "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686341814/socialMedia/be-yourself-bg_rmxvmb.jpg",
+    createdAt: "2018-06-12T01:06:00+05:30",
+    updatedAt: formatDate(),
+    following: [
+      {
+        _id: "1T6Be1QpLm",
+        firstName: "Jacob",
+        lastName: "Mitchell",
+        username: "jacobmitch",
+        profileAvatar:
+          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331002/socialMedia/Jacob-Mitchell_elh9gg.jpg",
+      },
+    ],
+    followers: [
+      {
+        _id: "t7cZfWIp-q",
+        firstName: "Emily",
+        lastName: "Smith",
+        username: "emilysmith",
+        profileAvatar:
+          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+      },
+    ],
+    bookmarks: [],
+  },
+  {
     _id: "t7cZfWIp-q",
     firstName: "Emily",
     lastName: "Smith",
