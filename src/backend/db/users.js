@@ -6,7 +6,7 @@ import { formatDate } from "../utils/authUtils";
 
 export const users = [
   {
-    _id: "79Gks29otl",
+    _id: "admin",
     firstName: "jeryan",
     lastName: "royate",
     password: "1234",
@@ -14,29 +14,29 @@ export const users = [
     bio: "echozone teamleader!",
     website: "https://echozoneph.online",
     profileAvatar:
-      "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331082/socialMedia/Sarah-Wilson_io6cpx.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbovJW2rsLIiYsMlXs11nox8HpZXvqYSLXRA&usqp=CAU",
     backgroundImage:
       "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686341814/socialMedia/be-yourself-bg_rmxvmb.jpg",
-    createdAt: "2018-06-12T01:06:00+05:30",
+    createdAt: "2023-10-1T01:06:00+05:30",
     updatedAt: formatDate(),
     following: [
       {
-        _id: "1T6Be1QpLm",
-        firstName: "Jacob",
-        lastName: "Mitchell",
-        username: "jacobmitch",
+        _id: "member1",
+        firstName: "John ryan",
+        lastName: "visaya",
+        username: "johnryan",
         profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331002/socialMedia/Jacob-Mitchell_elh9gg.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbovJW2rsLIiYsMlXs11nox8HpZXvqYSLXRA&usqp=CAU",
       },
     ],
     followers: [
       {
-        _id: "t7cZfWIp-q",
-        firstName: "Emily",
-        lastName: "Smith",
-        username: "emilysmith",
+        _id: "member1",
+        firstName: "john ryan",
+        lastName: "visaya",
+        username: "johnryan",
         profileAvatar:
-          "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686331085/socialMedia/Emily-Smith_jfepcx.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbovJW2rsLIiYsMlXs11nox8HpZXvqYSLXRA&usqp=CAU",
       },
     ],
     bookmarks: [],
