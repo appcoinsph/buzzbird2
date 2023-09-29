@@ -12,14 +12,13 @@ export const users = [
     lastName: "royate",
     password: "1234",
     username: "jeryan",
+    created: "SEPT 29 2023",
     bio: "echozone teamleader!",
     website: "https://echozoneph.online",
     profileAvatar:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbovJW2rsLIiYsMlXs11nox8HpZXvqYSLXRA&usqp=CAU",
     backgroundImage:
       "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686341814/socialMedia/be-yourself-bg_rmxvmb.jpg",
-    createdAt: "2018-06-12T01:06:00+05:30",
-    updatedAt: formatDate(),
     following: [
       {
         _id: "member1",
