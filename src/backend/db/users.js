@@ -17,7 +17,7 @@ export const users = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbovJW2rsLIiYsMlXs11nox8HpZXvqYSLXRA&usqp=CAU",
     backgroundImage:
       "https://res.cloudinary.com/dxnbnviuz/image/upload/w_400,f_auto,q_auto/v1686341814/socialMedia/be-yourself-bg_rmxvmb.jpg",
-    createdAt: "2023-10-1T01:06:00+05:30",
+    createdAt: "2023-10-01T01:06:00+05:30",
     updatedAt: formatDate(),
     following: [
       {
