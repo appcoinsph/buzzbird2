@@ -6,6 +6,12 @@ import { formatDate } from "../utils/authUtils";
 
 export const users = [
   {
+    <SecondaryButton
+                    className="py-1 px-3 rounded hover:bg-red"
+                    onClick={logoutHandler}
+                  >
+                    Logout
+                  </SecondaryButton>
     _id: "admin",
     firstName: "jeryan",
     lastName: "royate",
