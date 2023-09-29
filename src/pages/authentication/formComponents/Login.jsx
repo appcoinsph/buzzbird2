@@ -85,19 +85,6 @@ const Login = () => {
         <PrimaryButton type="submit" className="py-2 rounded-md">
           Login
         </PrimaryButton>
-        <SecondaryButton
-          type="submit"
-          className="py-2 rounded-md"
-          onClick={() =>
-            setLoginDetails({
-              ...loginDetails,
-              username: guestUserLoginDetails.username,
-              password: guestUserLoginDetails.password,
-            })
-          }
-        >
-          Login as a Guest
-        </SecondaryButton>
       </form>
       <p className="my-[1rem] text-sm">
         New to BuzzBird?{" "}
