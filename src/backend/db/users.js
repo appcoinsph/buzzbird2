@@ -13,6 +13,12 @@ export const users = [
     username: "jeryan",
     bio: "echozone teamleader!",
     website: "https://echozoneph.online",
+    <SecondaryButton
+                    className="py-1 px-3 rounded hover:bg-red"
+                    onClick={logoutHandler}
+                  >
+                    Logout
+                  </SecondaryButton>
     profileAvatar:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbovJW2rsLIiYsMlXs11nox8HpZXvqYSLXRA&usqp=CAU",
     backgroundImage:
