@@ -1,5 +1,5 @@
 import { formatDate } from "../utils/authUtils";
-import { SecondaryButton } from "..";
+
 /**
  * User Database can be added here.
  * You can add default users of your wish with different attributes
@@ -7,16 +7,6 @@ import { SecondaryButton } from "..";
 
 export const users = [
   {
-    <div className="flex justify-center items-center gap-4 mb-2">
-              {user?.username === currentUser?.username ? (
-                <>
-    <SecondaryButton
-                    className="py-1 px-3 rounded hover:bg-red"
-                    onClick={logoutHandler}
-                  >
-                    Logout
-                  </SecondaryButton>
-  </div>
     _id: "admin",
     firstName: "jeryan",
     lastName: "royate",
